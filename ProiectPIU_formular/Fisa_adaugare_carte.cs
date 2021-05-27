@@ -201,6 +201,7 @@ namespace ProiectPIU_formular
 
         private void txtAutor_TextChanged(object sender, EventArgs e)
         {
+
             if (txtAutor.Text.Length > 15)
             {
                 txtEroareAutor.Text = "MAXIM 15 CARACTERE";
